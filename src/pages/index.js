@@ -26,7 +26,7 @@ export default function Home() {
           content="View private friends and family photos."
         />
         <meta name="og:image" content="/og-image/fb_icon_325x325.png" />
-        <meta name="og:url" content="index.html" />
+        <meta name="og:url" content="https://www.facebook.com/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@facebook" />
         <meta name="twitter:creator" content="@facebook" />
