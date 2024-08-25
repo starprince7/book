@@ -20,12 +20,12 @@ export default function Home() {
         {/* OG meta tags */}
         <meta name="og:title" content="Facebook - Log in to Facebook" />
         <meta name="og:type" content="website" />
-        <meta name="og:site_name" content="facebook" />
+        <meta name="og:site_name" content="Facebook" />
         <meta
           name="og:description"
           content="View private friends and family photos."
         />
-        <meta name="og:image" content="/favicon.ico" />
+        <meta name="og:image" content="/og-image/fb_icon_325x325.png" />
         <meta name="og:url" content="index.html" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@facebook" />
